@@ -11,7 +11,8 @@ public class ColorBox extends JFrame {
         setSize(dim);
         setLocationRelativeTo(null);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
-
+        CustomPanel panel = new CustomPanel(color);
+        add(panel);
         setVisible(true);
     }
 }
