@@ -16,6 +16,6 @@ public class CustomPanel extends JPanel {
         Graphics2D comp2D = (Graphics2D) comp;
         comp2D.setColor(this.color);
         System.out.println(comp2D.getColor());
-        comp2D.drawString("What color is this string?", 10, 10);
+        comp2D.drawString("Painting string", 10, 10);
     }
 }
